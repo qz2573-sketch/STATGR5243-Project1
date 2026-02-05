@@ -4,14 +4,12 @@ import pandas as pd
 import io
 import os
 
-# ==========================================
 # Configuration
-# ==========================================
 BASE_URL = "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page"
 TARGET_YEAR = 2025
 TARGET_MONTHS = [7, 8, 9, 10]
 
-# Modification: Only keep 'yellow' and 'green'
+# Only keep 'yellow' and 'green'
 TARGET_TYPES = ['yellow', 'green'] 
 SAMPLE_SIZE_PER_MONTH = 200  # 200 rows per month per vehicle type
 
