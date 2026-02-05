@@ -23,11 +23,10 @@ The final deliverable includes a reproducible workflow that acquires data from t
 1. Prerequisites
 Ensure you have Python installed (3.8+ recommended). You will need the following libraries to handle web scraping and Parquet file processing:
 
-Bash
 pip install pandas requests beautifulsoup4 pyarrow fastparquet
+
 2. Data Acquisition
 To acquire the data, run the provided Python script. This script performs the following "Advanced" data selection tasks:
-
 
 Web Scraping: Parses the NYC TLC Website to dynamically find download links.
 
@@ -35,7 +34,6 @@ Stratified Sampling: Downloads large Parquet files for July, August, September, 
 
 Command to run:
 
-Bash
 python data_acquisition.py
 Output: This will generate three CSV files in the data_raw/ directory.
 
