@@ -1,20 +1,13 @@
 import pandas as pd
 import os
 
-# ==========================================
-# Configuration
-# ==========================================
 INPUT_DIR = "data_raw"
 OUTPUT_DIR = "data_clean"
 
 if not os.path.exists(OUTPUT_DIR):
     os.makedirs(OUTPUT_DIR)
 
-# ==========================================
-# Column Mapping Configuration
-# Modify this section based on your analysis of the raw data
-# ==========================================
-# This dictionary defines how to merge columns with the same meaning but different names
+# Defines how to merge columns with the same meaning but different names
 COLUMN_MERGE_MAPPING = {
     # Datetime columns: Yellow uses 'tpep_...', Green uses 'lpep_...'
     'pickup_datetime': {
@@ -36,7 +29,6 @@ COLUMN_MERGE_MAPPING = {
     }
 }
 
-# Note: Only common columns (present in both Yellow and Green) will be kept.
 # Type-specific columns (e.g., Airport_fee for Yellow, ehail_fee for Green) will be excluded.
 
 def analyze_raw_data():
