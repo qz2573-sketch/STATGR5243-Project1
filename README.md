@@ -1,9 +1,9 @@
 # STATGR5243-Project1: NYC Taxi Data Pipeline & Analysis
 
 ##  Project Overview
-This project focuses on the end-to-end data science pipeline, ranging from raw data acquisition to exploratory data analysis (EDA) and feature engineering. [cite_start]The objective is to analyze trip records from the **NYC Taxi & Limousine Commission (TLC)** to derive meaningful insights regarding urban transportation patterns[cite: 3, 6].
+This project focuses on the end-to-end data science pipeline, ranging from raw data acquisition to exploratory data analysis (EDA) and feature engineering. The objective is to analyze trip records from the **NYC Taxi & Limousine Commission (TLC)** to derive meaningful insights regarding urban transportation patterns.
 
-The final deliverable includes a reproducible workflow that acquires data from the web, cleans inconsistencies, creates new features, and visualizes trends[cite: 17, 30].
+The final deliverable includes a reproducible workflow that acquires data from the web, cleans inconsistencies, creates new features, and visualizes trends.
 
 ##  Repository Structure
 ```text
