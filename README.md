@@ -20,8 +20,9 @@ pip install -r requirements.txt
 # 2. Run data acquisition script
 python data_acquisition.py
 
-# 3. Open analysis notebook
-# Run notebooks/analysis.ipynb
+# 3. Open jupyter notebooks `EDA.ipynb` and `Data Processing and Feature Engineering.ipynb`
+
+# 4. See `project_tax_rep.ipynb` for the final report that combines the code and findings from (2) and (3). 
 ```
 
 ## Data Acquisition
