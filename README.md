@@ -40,7 +40,7 @@ python data_acquisition.py
 
 ## Data Analysis
 
-After generating the raw data, open `notebooks/analysis.ipynb` to view the cleaning, preprocessing, and EDA workflow.
+After generating the raw data, open `notebooks/project_tax_rep.ipynb` to view the cleaning, preprocessing, and EDA workflow.
 
 ## Methodology
 
@@ -69,8 +69,11 @@ STATGR5243-Project1/
 │   ├── yellow_tripdata_2025_sample.csv
 │   └── green_tripdata_2025_sample.csv
 ├── notebooks/
-│   └── analysis.ipynb           # Main analysis notebook
+│   └── EDA.ipynb                                         #  Exploratory Data Analysis code
+│   └── Data Processing and Feature Engineering.ipynb     #  Data Processing and Feature Engineering code
+│   └── project_tax_rep.ipynb                             #  Jupyter Notebook of Project Report 
 ├── data_acquisition.py           # Data acquisition script
+├── data_cleaning.py              # Initial data cleaning script
 ├── Project_Report.pdf            # Project report
 ├── requirements.txt              # Python dependencies
 └── README.md
